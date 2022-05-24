@@ -1,17 +1,19 @@
 == Docker-CommandLine-Ap
-
+---
 This is solution to exercise from Scala-Academy.
 
 Exercise: *File Listing*
 
 Create a dockerized Scala command-line application that accepts a directory to list files from.
 
-`docker run [imageName] /path/to/a/directory`
-
 == Dependencies.
 
-If You want to run this code,you need to import docker/dockerfile to build.sbt
+If You want to run this code,you need to import docker/dockerfile to build.sbt.
+
+Scala: *2.13.8*
 
 == How to run.
 
 Clone this repository to your IDE.
+`docker run [imageName] /path/to/a/directory`
+
