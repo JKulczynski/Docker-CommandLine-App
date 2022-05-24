@@ -8,13 +8,9 @@ Create a dockerized Scala command-line application that accepts a directory to l
 
 `docker run [imageName] /path/to/a/directory`
 
-[[Dependencies]]
+== Dependencies.
 
-.Dependencies
-
-****
 If You want to run this code,you need to import docker/dockerfile to build.sbt
-****
 
 == How to run.
 
